@@ -1,5 +1,6 @@
 # Soal Belajar cepat Vue.js
-## Dasar Vue.js
+## Perkenalan Vue.js
+
 1. Vue.js adalah framework javascript termasuk framework...
    
    a. BackEnd
@@ -49,7 +50,7 @@
    **c. Internet**
 
    d. VGA
-## Reactive data Vue.js
+### Reactive data Vue.js
 
 6. Reactive Data pada Vue.js adalah...
    
@@ -61,7 +62,7 @@
 
    d. Hubungan data yang tampil terus menerus
 
-## Bindding data Vue.js
+### Bindding data Vue.js
 
 7. Diketahui ada sebuah penggalan program pada file app.js yang berisi :
 ```
@@ -145,7 +146,7 @@
 
     **d. {{data.name}}**
 
-## Looping pada Vue.js
+### Looping pada Vue.js
 
 12. Berikut beberapa syntax Looping yang benar adalah...
 ```
@@ -186,7 +187,7 @@
 
     d. Mengulang suatu kondisi hanya 1 kali saja
 
-## Kondisi pada Vue.js
+### Kondisi pada Vue.js
 
 14. Dalam Vue.js perintah If menggunakan syntax...
     
@@ -215,7 +216,7 @@
       </div>
    ```
 ```
-    **d. <div v-if="item.harga <=100"> 
+   ** d. <div v-if="item.harga <=100"> 
          ...
       </div>**
    ```
@@ -293,7 +294,7 @@
 
     d. Vue.js
 
-##  Input Data dari User
+###  Input Data dari User
 
 21. Pada Vue.js kita dapat menggunakan kelas UI milik framework...
     
@@ -335,12 +336,29 @@
 
       d. Menunggu proses lainnya 
 
-## Lifecyle Hooks VueJS
+### Lifecyle Hooks VueJS
 
-25. v-model
+25. Pengambilan data atau Fetch dari API biasanya berupa response data berbentuk...
+    
+    a. XML
 
+    **b. JSON**
 
+    c. Array
 
-26. 
+    d. HTML
 
+26. Dalam Lifecycle Hooks Vue.js terdapat beberapa proses diantaranya...
 
+ 
+    **a. Created, Mounted, Update, Destroy.**
+
+    b. Created, Read, Update, Destroy.
+
+    c. Created, Mounted, Delete, Destroy.
+
+    d. Created, Mounted, Update, Update.
+
+27. 
+
+## Bekerja dengan template
