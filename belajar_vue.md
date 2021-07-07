@@ -359,6 +359,92 @@
 
     d. Created, Mounted, Update, Update.
 
-27. 
+27. Mounted adalah method bawaan Vue.js yang berfungsi untuk...
+    
+    a. Untuk menaruh banyak fungsi atau method yang mau dipakai di dalam Vue
+
+    b. Untuk menyimpan attribute
+
+    **c. Mengaktifkan suatu fungsi atau kejadian pada saat component itu dipanggil**
+
+    d. Untuk proses Logic
+
+
+### Event dan Method
+
+28. Untuk menghandle event dari user kita bisa menggunakan Directive
+    
+    a. v-do
+
+    b. v-if
+
+    c. v-show
+
+    **d. v-on**
+
+29. Penulisan v-on yang tepat adalah...
+    
+    a. ```<button v-on=>click="counter += 1">Add 1</button>```
+
+    b. ```<button v-on-></button>click="counter += 1">Add 1</button>```
+
+    **c. ```<button v-on:click="counter += 1">Add 1</button>```**
+
+    d. ```<button v-on::click="counter += 1">Add 1</button>```
+
+30. Pada Vue.js fungsi atau method yang akan kita gunakan mesti didefinisikan dengan...
+    
+    **a. Objek methods**
+
+    b. Objek class
+
+    c. Objek variabel
+
+    d. Objek attribute
+
+31. Penulisan fungsi pada Vue.js versi 2 yang tepat adalah...
+    
+    **a. namaMethod : function (parameter){ .... }**
+
+    b. namaMethod :: function (parameter){ .... }
+
+    c. namaMethod => function (parameter){ .... }
+
+    d. namaMethod -> function (parameter){ .... }
+
+32. Penulisan sysntax objek method yang benar adalah...
+    
+    a.
+      methods => {
+
+       namaMethod : function (parameter) { .... }
+       
+    }
+   
+
+    b.
+      methods  {
+
+       namaMethod : function (parameter) { .... }
+
+    }
+   
+   
+
+    **c.** 
+      methods: {
+
+       namaMethod : function (parameter) { .... }
+
+    }
+   
+
+    d.
+     methods:: {
+
+       namaMethod : function (parameter) { .... }
+
+    }
+   
 
 ## Bekerja dengan template
