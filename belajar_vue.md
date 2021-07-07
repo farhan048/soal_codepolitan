@@ -145,6 +145,8 @@
 
     **d. {{data.name}}**
 
+## Looping pada Vue.js
+
 12. Berikut beberapa syntax Looping yang benar adalah...
 ```
    ** a. <ul>
@@ -183,6 +185,8 @@
     c. Mengenerate data - data
 
     d. Mengulang suatu kondisi hanya 1 kali saja
+
+## Kondisi pada Vue.js
 
 14. Dalam Vue.js perintah If menggunakan syntax...
     
@@ -251,5 +255,92 @@
    **c. v-else**
 
    d. elseif
+
+18. Selain menggunakan v-if ada satu sysntax lagi yang dapat kita gunakan sebagai kondisi yaitu...
+   
+   a. v-tamin
+
+   b. v-see
+   
+   c. v-display
+   
+   **d. v-show**
+
+19. Untuk menampilkan data lebih dari sama dengan 5 maka sysntax yang di perlukan adalah...
+    
+    **a. ```<h1 v-if="item => 5"> ... </h1>```**
+    
+    b  ```<h1 v-if="item == 5"> ... </h1>```
+
+    c. ```<h1 v-if="item > 5"> ... </h1>```
+
+    d. ```<h1 v-if="item =< 5"> ... </h1>```
+
+20. Jika kita mempunyai sysntax sebagai berikut
+```
+   var data = "awesome"
+   ...
+    <h1 v-if="data == 'awesome'">Vue is awesome!</h1>
+    <h1 v-else>Oh no 😢</h1>
+```
+     maka hasil yang akan muncul adalah...
+    
+    a.Yeayy!!!
+    
+    b Oh no 😢
+
+    **c.Vue is awesome!**
+
+    d. Vue.js
+
+##  Input Data dari User
+
+21. Pada Vue.js kita dapat menggunakan kelas UI milik framework...
+    
+    a. Laravel
+
+    b. Vue.js
+    
+    c. Visual Studio Code
+
+    **d. Bootstrap**
+
+22. Untuk menghandle inputan user kita bisa menggunakan Directive...
+    
+    **a. V-model**
+
+    b. X-model
+    
+    c. Y-model
+
+    d. S-model
+
+23. Penulisan V-model yang benar adalah...
+    
+    a. ``` <input v-model=="message" >```
+
+    **b. ``` <input v-model="message" >```**
+
+    c. ``` <input v-model=>"message" >```
+
+    d. ``` <input v-model->"message" >```
+
+24. V-model sangat membantu dalam menghandle inputan user karena...
+    
+      a. Biasa seperti inputan Bootstrap
+
+      b. Menunggu aksi terlebih dahulu
+
+      **c. Langsung secara realtime pada UI**
+
+      d. Menunggu proses lainnya 
+
+## Lifecyle Hooks VueJS
+
+25. v-model
+
+
+
+26. 
 
 
