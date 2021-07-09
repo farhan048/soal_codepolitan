@@ -448,3 +448,170 @@
    
 
 ## Bekerja dengan template
+
+33. Cara yang paling basic untuk membinding data di Vue.js adalah dengan cara...
+    
+    **a. {{ name }}**
+
+    b. {{ $data->name }}
+
+    c. {{ $data-->name }}
+
+    d. {{ $data=>name }}
+
+34.  Selain double curly braces {{ }} Binding data di Vue.js bisa dilakukan dengan directive...
+    
+    a. v-if
+
+    b. v-show
+
+    **c. v-html**
+
+    d. v-blade
+
+35.  kelebihan dari v-html adalah...
+    
+    **a. Dapat memparse script html atau elemen html**
+
+    b. Dapat menyimpan data
+
+    c. Dapat menapilkan data
+
+    d. Dapat memproses data
+
+36.  v-html juga cukup berhabaya jika digunakan pada kondisi yang kurang tepat karena dapet menyababkan...
+    
+    a. Serangan Ransomware
+
+    **b. Cross Script Injection**
+
+    c. Serangan Malware
+
+    d. Semua Jawaban salah
+
+37.  Untuk menampilkan value yang pertama kali dideklarasikan kita dapat menggunakan directive...
+    
+    a. v-if
+
+    b. v-show
+
+    c. v-html
+
+    **d. v-once**
+
+38. Kita juga dapat memanipulasi atau me-overide value dari v-bind dengan cara menaruh attribute nya pada file...
+    
+    **a. app.js**
+
+    b. .env
+
+    c. config.js
+
+    d. route.php
+
+39. Apa maanfaatnya jika kita menaruh value atau attribute ke dalam file app.js...
+
+    a. Mempermudah dalam pembuatan perangkat lunak
+
+    b. Mudah dalam memanggil value atau attributenya
+
+    c. Tidak perlu membuat value atau attribute yang sama
+
+    **d. Semua Jawaban Benar**
+
+40. Kita juga dapat menambahkan beberapa nilai class dengan cara...
+
+    **a. ```<img :src="img-fluid + 'rounded'" class="img-fluid" :alt="...">```**
+
+    b. ```<img :src="img-fluid + rounded" class="img-fluid" :alt="...">```
+
+    c. ```<img :src="img-fluid.rounded" class="img-fluid" :alt="...">```
+
+    d. ```<img :src="img-fluid-rounded" class="img-fluid" :alt="...">```
+
+41. Bagaimana cara penulisan v-bind dengan struktur JSON yang benar...
+
+    **a.<img v-bind="{
+       
+       class : imgClass,
+
+       src : products[0].image,
+
+       alt : products[0].name
+
+    }"> **
+    
+    b.<img v-bind="{
+
+       class : imgClass;
+
+       src : products[0].image,
+
+       alt : products[0].name
+
+    }"> 
+    
+
+    c.<img v-bind="{
+
+       class : imgClass +
+
+       src : products[0].image +
+
+       alt : products[0].name
+
+    }"> 
+    
+
+    d. <img v-bind="{
+
+       class : imgClass;
+
+       src : products[0].image;
+
+       alt : products[0].name
+
+    }"> 
+    
+42. Computed Property dapat mengubah atau mereplace slug dengan...
+    
+    a. Permanen
+
+    **b. Realtime atau Dinamis**
+
+    c. Lama
+
+    d. Menunggu proses
+
+43. Pebedaan Computed dan method adalah...
+    
+    a. Methods akan menjalankan fungsi terus menerus dan computed menjalan fungsi terus menerus juga
+
+    b. Sama - sama menjalankan fungsi
+
+    **c. Jika Computed menyimpan chache sedangkan method tidak, Jadi bila dalam sebuah view muncul 100 variable yg sama, computed hanya menjalankan fungsi 1x saja (selama tidak ada perubahan), sedangkan methods akan menjalankan fungsi tersebut 100x**
+
+    d. Semua jawaban benar
+
+44. Computed property lebih unggul karena...
+    
+    a. Semua jawaban salah
+
+    b. Menjalankan fungsi terus menerus
+    
+    c. Menjalankan fungsi ketika ada koneksi
+
+    **d. Hanya menampilkan data selama itu ada perubahan jika tidak ada perubahan maka menampilkan hal yang sama sehingga menyimpan chahce pada browser**
+
+45. Method pada Vue.js lebih berat karena...
+    
+    **a. Methods akan menjalankan fungsi terus menerus walaupun tidak ada perubahan**
+
+    b. Menjalakan fungsinya ketika ada perubahan saja
+
+    c. Tidak melakukan apa - apa
+
+    d. Semua jawaban salah
+
+### Mengatur Style CSS
+
