@@ -1399,7 +1399,7 @@ Fungsi sysntax tersebut adalah...
 
      d. Semua Jawaban Benar
      
-3.   Modul yang sudah kita instal di vuejs akan tesimpan pada file...       
+116.   Modul yang sudah kita instal di vuejs akan tesimpan pada file...       
      
      **a. Package.Json**
 
@@ -1409,7 +1409,7 @@ Fungsi sysntax tersebut adalah...
 
      d. .gigigneore
      
-4.   Perinah untuk menginstal modul adalah...     
+117.   Perinah untuk menginstal modul adalah...     
      
      **a. npm i --save nama modul**
 
@@ -1419,7 +1419,7 @@ Fungsi sysntax tersebut adalah...
 
      d. npm i --load nama modul
      
-5.   Untuk melihat modul apa saja yang sudah terinstal kita bisa lihat pada objek...     
+118.   Untuk melihat modul apa saja yang sudah terinstal kita bisa lihat pada objek...     
      
      a. DevDependencies
 
@@ -1429,7 +1429,7 @@ Fungsi sysntax tersebut adalah...
 
      **d. Dependencies**
      
-6.   Modul yang sudah kita instal dapat kita import pada file...     
+119.   Modul yang sudah kita instal dapat kita import pada file...     
      
      **a. main.js**
 
@@ -1439,7 +1439,7 @@ Fungsi sysntax tersebut adalah...
 
      d. Package.Json
      
-7.   berikut cara import yang benar adalah...     
+120.   berikut cara import yang benar adalah...     
      
      a. import "nama package",
 
@@ -1449,7 +1449,7 @@ Fungsi sysntax tersebut adalah...
 
      d. import "nama package"
 
-8. Bagaimana cara kita untuk mengimplementasikan modul di vuejs...
+121. Bagaimana cara kita untuk mengimplementasikan modul di vuejs...
    
    a. Memanggil atau mengimport modul yang sudah di import dari file App.vue dan mengexportnya ke dalam file main.js
 
@@ -1459,3 +1459,150 @@ Fungsi sysntax tersebut adalah...
 
    **d. Memanggil atau mengimport modul yang sudah di import dari file main.js dan mengexportnya ke dalam file App.vue**
      
+## Implementasi VueRouter
+
+122. VueRouter adalah...
+     
+     a. Library yang membantu dalam mengatur passing data
+
+     **b. Library yang membantu dalam membuat struktur halaman dari project vue cli**
+
+     c. Library yang membantu dalam membuat isi component
+
+     d. Library yang membuat component
+
+123. Bagaimana cara memanggil library VueRouter...
+
+    **a. Dengan import package VueRouter dari node modules**
+
+    b. Dengan memasukan script cdn ke main.js
+
+    c. Dengan mengcopy packgae VueRouter ke dalam project CLI
+
+    d. Semua jawaban benar
+
+124. Pada file apa kita memanggil library VueRouter...
+    
+    **a. main.js**
+
+    b. vue.app
+
+    c. app.vue
+
+    d. Semua jawaban Benar
+    
+125. sysntax untuk memanggil atau import yang tepat adalah...
+
+    a. import VueRouter from node_modules "vue-router";
+
+    b. import VueRouter from ('vue-router');
+
+    c. import VueRouter from "node_modules.vue-router";
+
+    **d. import VueRouter from "vue-router";**
+    
+126. Bagaimana sysntax mengconfig intance objek library VueRouter..
+
+    **a. Vue.use(alias name pada import);**
+
+    b. Vue.use(nama package);
+
+    c. Vue.using(alias name pada import);
+
+    d. Vue.use['alias name pada import'];
+    
+127. Fungsi dari property Routes adalah...
+
+    **a. Menyimpan beberapa path dan component**
+
+    b. Menyimpan data - data untuk menampilkan
+
+    c. Menyimpan property VueRouter
+
+    d. Menyimpan file component
+    
+128. Fungsi dari property Path adalah...
+
+    a.
+
+    b.
+
+    c. Untuk mengenali url yang diakses user
+
+    d.
+
+129. Sysntax yang tepat untuk membuat VueRouter adalah..
+
+    **a. const router = new VueRouter({
+  routes: [
+     {
+       path: "*",
+       component: Products
+     },
+     {
+       path: "/checkout",
+       component: Checkout
+     }
+  ]
+});**
+
+    b. const router = new VueRouter({
+  routes: [ 'path: "*", component: Products', 'path: "/checkout", component: Checkout']});
+
+    c. const router = new VueRouter({
+  routes: [
+     {
+       path: "*",
+       view : Products
+     },
+     {
+       path: "/checkout",
+       view : Checkout
+     }
+  ]
+});
+
+    d. const router = new VueRouter({
+  routes: [
+     {
+       url : "*",
+       component: Products
+     },
+     {
+       url : "/checkout",
+       component: Checkout
+     }
+  ]
+});
+    
+    
+1.     Tag component untuk VueRouter yang tepat adalah...
+
+    **a. ```<router-view></router-view>```**
+
+    b. ```<router-blade></router-blade>```
+
+    c. ```<view-router></view-router>```
+
+    d. ```<router-link></router-link>```
+    
+2.     Untuk menghubungkan antar component diperlukan sebuah tag yaitu...
+
+    **a. ```<router-link> </router-link>```**
+
+    b. ```<router-url> </router-url>```
+
+    c. ```<uri-link> </uri-link>```
+
+    d. ```<routes-link> </routes-link>```
+    
+3.     Fungsi to pada router-link adalah...
+
+    a. Untuk menyimpan value path atau url halaman itu sendiri
+
+    **b. Untuk menyimpan value path atau url dari halaman yang di tuju**
+
+    c. Untuk menyimpan value path atau url halaman semua halaman yang ada di project
+
+    d. Untuk menyimpan value path atau url halaman main.js
+    
