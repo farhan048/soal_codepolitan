@@ -304,3 +304,348 @@
    c. Membandingkan hasil test dengan ekspetasi test lainnya
 
    d. Membandingkan hasil test dengan hasil test pada testcase yang sama
+
+31. Untuk menjalankan file tertentu kita dapat menggunakan perintah...
+
+   a. filter-testcase
+
+   b. vendor
+
+   **c. filter**
+
+   d. testcase-filter
+
+32. Perintah untuk menajalankan test tertentu adalah...
+
+   a. ./vendor/bin/phpunit --filter=UserTest
+
+   **b. ./vendor/bin/phpunit --filter=UserTest**
+
+   c. ./vendor/bin/phpunit --filter=UserTest
+
+   d. ./vendor/bin/phpunit --filter=UserTest
+
+33. Penulisan nama method mesti diawali dengan prefix...
+
+   **a. test**
+
+   b. nama pengetesan
+
+   c. nama penguji
+
+   d. nama assert
+
+34. Apa yang terjadi jika kita tidak menambahkan prefix test pada nama method...
+
+   **a. PHPUnit tidak membaca testcase**
+
+   b. PHPUnit tetap membaca testcase
+
+   c. PHPUnit tidak bisa berjalan normal
+
+   d. PHPUnit membaca semua testcase
+
+35. Jika kita tidak ingin menambahkan prefix pada nama method kita dapat melakukan...
+
+   a. Memberi prefix pada nama method
+
+   **b. Memberi komentar atau dokumentassi pada testcase**
+
+   c. Memberi tulisan test pada nama method
+
+   d. Semua jawaban benar
+
+36. Penulisan dokumentasi atau komentar yang benar adalah...
+
+   a. ```/** #test */```
+
+   **b. ```/** @test */```**
+
+   c. ```/** test */```
+
+   d. ```/** .test */```
+
+37. Constructor adalah...
+
+   **a. Method khusus yang akan dieksekusi pada saat pembuatan objek**
+
+   b. Method khusus yang akan dieksekusi pada saat penghapusan objek
+
+   c. Method khusus yang akan dieksekusi pada saat pembuatan method
+
+   d. Method khusus yang akan dieksekusi pada saat penghapusan method
+
+38. Untuk menghindari instance objek model pada setiap method kita dapat melakukan satu kali intance objek dengan...
+
+   **a. Constructor**
+
+   b. setdown
+
+   c. Destructor
+
+   d. Construction
+
+39. Constructor pada PHPunit memiliki nama...
+
+   a. Constructor
+
+   b. Instance
+
+   **c. setUp**
+
+   d. setDown
+
+40. Property $user berfungsi untuk...
+
+   a. Menyimpan data assert
+
+   **b. Menyimpan data dari instance objek**
+
+   c. Menyimpan parameter
+
+   d. Menyimpan data pengujian
+
+41. Penulisan sysntax method setUp yang tepat adalah...
+
+   a. protected function setUp(): void
+    {
+      
+        $this->user = new \App\Models\User::
+    }
+
+   b. protected function setUp(): String
+    {
+
+        $this->user = new \App\Models\User;
+    }
+
+   **c. protected function setUp(): void
+    {
+
+        $this->user = new \App\Models\User;
+    }**
+
+   d. protected function setUp(): int
+    {
+
+        $this->user = new \App\Models\User;
+    }
+
+42. Method setUp memeliki fungsi untuk...
+
+   a. Mempersingkat source code
+
+   b. Mempersingkat waktu pengujian
+
+   c. Memudahkan pengujian
+
+   **d. Semua jawaban benar**
+
+43. Pada class AdditionalTest memiliki berapa method atau Testcase...
+
+   a. 1
+
+   **b. 2**
+
+   c. 4
+
+   d. 3
+
+44. Pada method add_operands ada berapa parameter pada property setOperands...
+
+   **a. 2**
+
+   b. 4
+
+   c. 1
+
+   d. 3
+
+45. fungsi testcase no_operands_exception adalah...
+
+   a. Untuk mengecek fungsi adition memiliki try catch atau tidak
+
+   **b. Untuk mengecek fungsi adition memiliki Throw Exception atau tidak** 
+
+   c. Untuk mengecek fungsi adition memiliki oeprands atau tidak
+
+   d. Semua Jawaban Benar
+
+46. Sysntax untuk melakukan operasi penjumlahan atau adition adalah...
+
+   a. return sum($this->operands); 
+
+   b. return array($this->operands);
+
+   c. return array-sum($this->operands);
+
+   **d. return array_sum($this->operands);**
+
+47. Fungssi if pada function atau method calculate pada file adition.php adalah...
+    
+   a. Mengecek apakah nilai yang akan dijumlahkan sama dengan kosong
+
+   b. Mengecek apakah nilai yang akan dijumlahkan tidak kosong
+
+   **c. Mengecek apakah nilai yang akan dijumlahkan kosong atau tidak**
+
+   d. Mengecek apakah operasi dijalankan atau tidak
+
+48. Sysntax untuk melakukan operasi pembagian atau division adalah...
+   
+   a. $a : $b
+
+   **b. $a / $b**
+
+   c. $a \ $b
+
+   d. $a :: $b
+
+49. Pada division atau pembagian digunakan jenis array...
+
+   a. array_reduce dan array_filter
+
+   **b. array_merge dan array_filter**
+
+   c. array_reduce dan array_merge
+
+   d. array_increase dan array_filter
+
+50. Parameter function calculate pada class division adalah...
+
+   a. $a, $c
+
+   b. $a, $s
+
+   **c. $a, $b**
+
+   d. $b, $a
+
+51. Untuk mengakses class abstract kita dapaat melakukan dengan cara...
+
+   **a. extend**
+
+   b. implements
+
+   c. import
+
+   d. use abstract class
+
+52. class abstract memiliki fungsi untuk...
+
+   **a. Sebagai induk class yang di pakai berulang - ulang**
+
+   b. Sebagai subclass yang di pakai hanya boleh satu kali
+
+   c. Sebagai subclass yang di pakai berulang - ulang
+
+   d. Sebagai induk class yang di pakai hanya boleh satu kali
+
+53. Kenapa function setOperands ditaruh pada class abstract...
+
+   a. Karena function setOperands dipanggil sekali pada class yang sama
+
+   **b. Karena function setOperands dipanggil berulang - ulang pada class yang berbeda**
+
+   c. Karena function setOperands berbentuk abstract
+
+   d. Karena function setOperands sebagai data dummy saja
+
+54. Fungsi dari array_filter adalah...
+
+   a. Sebagai filter apakah operation intance dari Operation Interface
+
+   **b. Sebagai filter apakah operation intance dari Operation Interface**
+
+   c. Sebagai filter apakah operation intance dari Operation Interface
+
+   d. Sebagai filter apakah operation intance dari Operation Interface
+
+55. Fungsi dari assertcount adalah...
+
+   a. Membandingkan hasil test dengan semua function yang ada sesuai atau tidak 
+
+   b. Membandingkan hasil test dengan test lainnya sesuai atau tidak
+
+   **c. Membandingkan hasil test dengan hitungan ekspetasi sesuai atau tidak**
+
+   d. Membandingkan hasil test dengan data sesuai atau tidak
+
+56. Fungsi dari assertIsArray adalah...
+
+   **a. Membandingkan hasil test apakah berbentuk array atau tidak**
+
+   b. Membandingkan hasil test berbentuk JSon atau tidak
+
+   c. Membandingkan hasil test berbentuk object atau tidak
+
+   d. Membandingkan hasil test berbentuk data atau tidak
+
+57. Fungsi dari array_merge adalah...
+
+   a. Menggabungkan 2 array dari dua property yang sama
+
+   **b. Menggabungkan 2 array dari dua property yang berbeda**
+
+   c. Menggabungkan 1 array dari dua property yang berbeda
+
+   d. Menggabungkan index array dari dua property yang berbeda
+
+58. Dalam function multiple_operations property setOperations menggunakan tipe data...
+
+   a. JSON
+
+   b. Object
+
+   **c. Array**
+
+   d. String
+
+59. Nama class pengetesan harus sesuai dengan nama...
+
+   a. Filenya
+
+   b. Testcasenya
+
+   c. Fitur yang akan diuji
+
+   **d. Semua jawaban benar**
+
+60. Sysntax melakukan calculate_multiple_results adalah ....
+
+   **a. $addition = new App\Calculator\Addition;
+        $addition->setOperands([5, 10]);
+
+        $division = new App\Calculator\Division;
+        $division->setOperands([100, 2]);
+
+        $calculator = new \App\Calculator\Calculator;
+        $calculator->setOperations([$addition, $division]);**
+
+   b. $addition = new App\Calculator\Addition;
+        $addition->setOperands([5, 10]);
+
+        $division = new App\Calculator\Division;
+        $division->setOperands([100, 2]);
+
+        $calculator = new \App\Calculator\Calculator;
+        $calculator->setOperations([$division, $division]);
+
+   c. $addition = new App\Calculator\Addition;
+        $addition->setOperands([5, 10]);
+
+        $division = new App\Calculator\Division;
+        $division->setOperands([100, 2]);
+
+        $calculator = new \App\Calculator\Calculator;
+        $calculator->setOperations([$addition, $addition]);
+
+   d. $addition = new App\Calculator\Addition;
+        $addition->setOperands([5, 10]);
+
+        $division = new App\Calculator\Division;
+        $division->setOperands([100, 2]);
+
+        $calculator = new \App\Calculator\Calculator;
+        $calculator->setOperations($addition, $division);
+
