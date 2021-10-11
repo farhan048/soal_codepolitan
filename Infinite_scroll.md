@@ -742,7 +742,7 @@
 
 72.  Isi dari datacontacts adalah...
 
-      a. dataContacts.add(i + 1 + ". John Doe");
+      **a. dataContacts.add(i + 1 + ". John Doe");**
    
       b. dataContacts.add(data);
    
@@ -833,63 +833,63 @@
 ## Infinite Scroll Menggunakan API (Movie Apps)
 81. Berikut library yang digunakan untuk membuat Movie Apps, **kecuali**...
     
-      a. 
+      **a. CalenderPicker**
    
-      b. 
+      b. Volley
    
-      c. 
+      c. Glid
    
-      d.
+      d. Material
 
 82. Fungsi dari volley adalah...
 
-      a. 
+      a. Untuk menampilkan data JSON
    
-      b. Untuk mengambil data API
+      **b. Untuk mengambil data API**
    
-      c. 
+      c. Untuk mendesain RecyclerView dan Card
    
-      d.
+      d. Convert dari JSON ke Objek
 
 83. Fungsi dari glide adalah...
       
-      a. 
+      a. Menampilkan path gambar dari URL
    
-      b. 
+      **b. Convert dari JSON ke Objek**
    
-      c. Menampilkan gambar URL
+      c. Menampilkan gambar dari URL
    
-      d.
+      d. Untuk mendesain RecyclerView dan Card
 
 84. Fungsi dari material adalah...
 
-      a. 
+      a. Menampilkan gambar dari URL
    
-      b. Untuk mendesain
+      **b. Untuk mendesain RecyclerView dan Card**
    
-      c. 
+      c.  Menampilkan path gambar dari URL
    
-      d.
+      d. Convert dari JSON ke Objek
 
 85. Fungsi dari gson adalah...
 
-      a. 
+      a. Untuk mendesain RecyclerView dan Card
    
-      b. Convert dari JSON ke Objek
+      **b. Convert dari JSON ke Objek**
    
-      c. 
+      c. Convert dari Array ke JSON
    
-      d.
+      d. Menampilkan gambar dari URL
 
 86. Fungsi dari swap refresh adalah...
 
-      a. 
+      a. Untuk mendesain RecyclerView dan Card
    
-      b. 
+      b. Convert dari JSON ke Objek
    
-      c. 
+      c. Convert dari Array ke JSON
    
-      d. Merefresh layout
+      **d. Merefresh layout**
    
 87. Berikut Base url movie **kecuali**....
 
@@ -903,13 +903,13 @@
 
 88. CardView terdapat pada...
 
-      a.
+      a. ITEM_LOADING
 
-      b.
+      b. ITEM_TYPE
 
-      c.
+      **c. ITEM_MOVIE**
 
-      d.
+      d. ITEM_ADAPTER
 
 89. Constraint layout adalah...
 
@@ -952,4 +952,249 @@
       d. android:textStyle="bolded"
       
 ### Buat Movie Adapter
-93. 
+93. Gson digunakan untuk...
+
+      **a. library untuk melakukan serialisasi dan deserialisasi data JSON dengan mudah**
+
+      b. library untuk melakukan hashing data JSON dengan mudah
+
+      c. library untuk melakukan naturalisasi data JSON dengan mudah
+
+      d. A dan C benar
+
+94. Singkatan dari JSON...
+
+      **a. JavaScript object notation**
+
+      b. JavaScript object notification
+
+      c. JavaSheet object notation
+
+      d. JavaScript notation object
+
+95. Jika viewType != TYPE_LOADING maka yang terjadi adalah...
+
+      a. Menampilkan AddLoading
+
+      b. Menampilkan RemoveLoading
+
+      **c. Menampilkan movieviehodler**
+
+      d. Menampilkan fecthData
+
+96. Untuk mengambil data movie ditangani oleh method ?
+
+      a. public int fecthData()
+
+      **b. public int getDataMovies()**
+
+      c. public int getDataMovies()
+
+      d. public int getDataMovies()
+
+97. Apa yang di return oleh getDataMovies ?
+
+      a. dataMovies.add(null);
+
+      b. dataMovies.remove(dataMovies.size() - 1);
+
+      **c. return dataMovies.size();**
+
+      d. binding = ItemMovieBinding.bind(itemView);
+
+98. Syntax untuk menggunakan view binding adalah...
+
+      **a. binding = ItemMovieBinding.bind(itemView);**
+
+      b. private ItemMovieBinding binding;
+
+      c. DecimalFormat decimalFormat = new DecimalFormat("#.#");
+
+      d. binding.ratingBarMovie.setRating(movie.movieRate());
+
+99.  Berikut adalah binding yang digunakan dalam movie adapter **kecuali** ?
+
+      a. binding.ratingBarMovie.setRating(movie.movieRate());
+
+      b. binding.tvTitleMovie.setText(movie.getOriginalTitle());
+
+      **c. binding.tvReleaseDate.setText(ItemMovie.getReleaseDate());**
+ 
+      d. binding.ratingBarMovie.setRating(movie.movieRate());
+
+100. Syntax untuk menampilkan data image adalah ?
+
+      **a. Glide.with(itemView).load(urlImage).into(binding.ivMovie);**
+
+      b. String urlImage = BuildConfig.BASE_URL_IMAGE_MOVIE_DB + movie.getPosterPath();
+
+      c. binding.tvTitleMovie.setText(movie.getOriginalTitle());
+
+      d. binding.ratingBarMovie.setRating(movie.movieRate());
+
+101. Untuk menampilkan angka desimal menggunakan ?
+
+      **a. DecimalFormat**
+
+      b. parseDecimal
+
+      c. ConvertDecimal
+
+      d. PreverenceDecimal
+
+102. Function movieRate berfungsi untuk ?
+
+      a. Membagi total data movie dengan
+
+      b. Membagi total user yang melakukan vote dengan 2
+
+      **c. Membagi avarage vote dengan 2 yang hasilnya bernilai maksimal 5**
+
+      d. Membagi total data decimal dengan 2
+
+### Fetch Data API
+103. Default value dari page adalah ?
+
+      **a. 1**
+
+      b. 2
+
+      c. 0
+
+      d. 3
+
+104. Untuk memunculkan progress bar di handle oleh ?
+
+      a. private void onStop()
+
+      b. private void hideLoading()
+
+      **c. private void loadLoading()**
+
+      d. private void onCreate()
+
+105. Value dari mainUrl adalah...
+
+      a. BuildConfig.API_VERSION + BuildConfig.TOKEN_MOVIE_DB;
+
+      **b. BuildConfig.BASE_URL_MOVIE_DB + BuildConfig.API_VERSION;**
+
+      c. mainUrl + "discover/movie?api_key=" + BuildConfig.TOKEN_MOVIE_DB + "&page=" + page;
+
+      d. BuildConfig.TOKEN_MOVIE_DB + mainUrl
+
+106. Value dari movieUrl adalah...
+
+      **a. mainUrl + "discover/movie?api_key=" + BuildConfig.TOKEN_MOVIE_DB + "&page=" + page;**
+
+      b. BuildConfig.BASE_URL_MOVIE_DB + BuildConfig.API_VERSION;
+
+      c. BuildConfig.API_VERSION + BuildConfig.TOKEN_MOVIE_DB;
+
+      d. BuildConfig.TOKEN_MOVIE_DB + mainUrl;
+
+107. Request Method yang digunakan pada StringRequest adalah...
+
+      a. POST
+
+      b. PUT
+
+      **c. GET**
+
+      d. DELETE
+
+108. Apa yang terjadi jika requestQueue != null ?
+
+      a. Mengecek koneksi API
+
+      b. Tetap melakukan fecthData
+
+      c. Memberhentikan koneksi API dan tetap melakukan fecthData
+
+      **d. Memberhentikan semua aktifitas fecthData**
+
+### Implementasi Infinite RecyclerView
+109. Syntax convert dari JSON ke objek adalah...
+
+      a. MovieResponse movieResponse = new Json().fromJson(response, MovieResponse.class);
+
+      **b. MovieResponse movieResponse = new Gson().fromJson(response, MovieResponse.class);**
+
+      c. MovieResponse movieResponse = new Object().fromJson(response, MovieResponse.class);
+
+      d. MovieResponse movieResponse = new Gson().fromObject(response, MovieResponse.class);
+
+110. Default value dari lastPage adalah ?
+
+      a. 1
+
+      b. 2
+
+      **c. 0**
+
+      d. 3
+
+111. Kondisi Untuk menambah page yang tepat adalah ?
+
+      **a.  if (isScroll && totalScrollItem >= countItems && page <= lastPage)**
+
+      b.  if (isScroll && totalScrollItem >= countItems || page <= Page)
+
+      c.  if (isScroll || totalScrollItem >= countItems && page <= FirstPage)
+
+      d.  if (isScroll && totalScrollItem >= totalScrollItem && page <= lastPage)
+
+112. Syntax untuk menambah page yang tepat adalah ?
+
+      a. isScroll = false;
+                    page + 1;
+                    fetchData(page);
+
+      b. isScroll = true;
+                    page += 1;
+                    fetchData(page);
+
+      c. isScroll = false;
+                    page += 1;
+                    fetchData(page);
+
+      **d. isScroll = false;
+                    page += 1;
+                    fetchData(page);**
+
+113. if (movieAdapter.getDataMovies() > 0){
+     
+            movieAdapter.addDataLoading();
+
+        }
+
+        berfungsi untuk....
+
+      a. Mempertahankan loading
+
+      b. Menghilangkan loading
+
+      **c. Menambahkan loading**
+
+      d. Semua jawaban salah
+
+114. movieAdapter.addDataMovies(movieResponse.getMovies()); memiliki fungsi untuk...
+
+      a. Meremove data movie
+
+      **b. Menambah data movie**
+
+      c. Memindahkan data movie ke API
+
+      d. Semu jawaban benar
+
+115. Apa yang terjadi jika  if (response != null){}
+
+      **a. Menghentikan loading dan menyalakan scroll**
+
+      b. Menjalakan loading dan menyalakan scroll
+
+      c. Menghentikan loading dan Mematikan scroll
+
+      d. Menjalakan loading dan Mematikan scroll
+     
