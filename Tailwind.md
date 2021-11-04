@@ -955,11 +955,11 @@
 
 88. Syntax dari gradient-skill yang tepat adalah ?
 
-    a.
+    a. background-image: gradient(#FC8181,#FED7D7);
 
-    b.
+    b. background: linear-gradient(#FC8181,#FED7D7);
 
-    c.
+    c. image: gradient-linear(#FC8181,#FED7D7);
 
     **d. background-image: linear-gradient(#FC8181,#FED7D7);**
 
@@ -967,148 +967,325 @@
 ### Membangun Menu Recent Work
 89. Syntax membuat judul di Menu Recent Work sama dengan ?
 
-    a.
+    **a. Menu about me dan menu skill framework**
 
-    b.
+    b. home
 
-    c.
+    c. footer
 
-    d.
+    d. Semua jawaban benar
 
 90. grid-cols-4 akan berfungsi pada breakpoint ?
 
-    a.
+    a. ketika pada breakpoint md dan lebih kecil
 
-    b.
+    **b. ketika pada breakpoint lg dan lebih besar**
 
-    c.
+    c. ketika pada breakpoint sm dan lebih kecil
 
-    d.
+    d. Semua jawaban benar
 
 91. Ketika berada pada breakpoint sm dan lebih besar namun lebih kecil dari lg maka akan menerapkan grid ?
 
-    a.
+    a. -clos-2
 
-    b.
+    b.  cols-grid-2
 
-    c.
+    **c. grid-cols-2**
 
-    d.
+    d. Semua jawaban benar
 
 92. grid-cols-1 akan berfungsi pada breakpoint ?
 
-    a.
+    **a. breakpoint lebih kecil dari sm**
 
-    b.
+    b. ketika pada breakpoint md dan lebih kecil
 
-    c.
+    c. Semua jawaban benar
 
-    d.
+    d. ketika pada breakpoint sm dan lebih kecil
 
 93. grid-cols-4 menampilkan kolom sebanyak ?
 
-    a.
+    a. Sebanyak 1 kolom dalam 4 baris
 
-    b.
+    b. Sebanyak 4 kolom dalam 4 baris
 
-    c.
+    c. Semua jawaban benar
 
-    d.
+    **d. Sebanyak 4 kolom dalam satu baris**
 
 94. Syntax untuk menampilkan 1 kolom dalam satu baris adalah ?
 
-    a.
+    a. grid-cols-4
 
-    b.
+    **b.  grid-cols-1**
 
-    c.
+    c. cols-grid-1
 
-    d.
+    d. grid-cols-3
 
 95. Syntax untuk menampilkan 4 kolom dalam satu baris adalah
 
-    a.
+    a. grid-cols-1
 
-    b.
+    b. grid-cols-3
 
-    c.
+    **c.  grid-cols-4**
 
-    d.
+    d. grid-cols-2
 
 ### Membangun Menu Recent Work 2
-96. dadada
+96. Elemen apa yang terdapat pada box recent work
 
-    a.
+    a. Gambar
 
-    b.
+    b. Judul
 
-    c.
+    c. Deskripsi
 
-    d.
+    **d. Semua jawaban benar**
 
-97. dadada
+97. Syntax judul dari proyek **yang tepat** adalah ?
 
-    a.
+    a. ```<text class="font-normal text-xl mb-2 text-gray-700">Sistem Informasi Keuangan</text>```
 
-    b.
+    b. ```<p class=>"font-bold text-xl mb-2 text-gray-700">Sistem Informasi Keuangan</p>```
 
-    c.
+    **c. ```<p class="font-bold text-xl mb-2 text-gray-700">Sistem Informasi Keuangan</p>```**
 
-    d.
+    d. ```<p class:->"font-bold text-xl mb-2 text-gray-700">Sistem Informasi Keuangan</p>```
 
-98. dadada
+98. ```<img src="img/img1.jpg" class="w-full rounded-lg">``` Berfungsi untuk ?
 
-    a.
+    **a. Menampilkan gambar**
 
-    b.
+    b. Menampilkan path gambar
 
-    c.
+    c. Menampilkan judul
 
-    d.
+    d. Semua jawaban benar
 
-99. dadada
+99. Utilitas yang digunakan dalam deskripsi proyek **kecuali** ?
 
+    a. text-gray-700
 
-    a.
+    b. text-base
 
-    b.
+    c. text-gray-700 text-base
 
-    c.
+    **d. text-description"**
 
-    d.
+100. Utilitas yang digunakan dalam judul proyek **yang tepat** adalah ?
 
-100. dadada
+    **a. Semua jawaban benar**
 
-    a.
+    b. font-bold
 
-    b.
+    c. text-xl
 
-    c.
+    d. text-gray-700
 
-    d.
+101. Syntax box recent work **yanng tepat** adalah ?
 
-101. dadad
+    a. ```<div class=>"bg-white px-4 py-4 m-2 shadow-lg rounded">```
 
-    a.
+    **b. ```<div class="bg-white px-4 py-4 m-2 shadow-lg rounded">```**
 
-    b.
+    c. ```<div class::"bg-pink px-4 py-4 m-2 ratangle">```
 
-    c.
+    d. ```<div class="bg-transparant px-4 py-4 m-2 shadow-lg">```
 
-    d.
+102. Utilitas box recent work **kecuali** ?
 
-102. dadada
+    a.rounded
 
-    a.
+    b. shadow-lg
 
-    b.
+    c. bg-white
 
-    c.
-
-    d.
+    **d. ratangle-box**
 
 ## Contact Me
 ### Membangun Contact Me
+103. Untuk membuat form membutuhkan tag ?
+
+    **a. <form>**
+
+    b. <input>
+
+    c. <form-input>
+
+    d. <register>
+
+104. Elemen apa saja yang terdapat pada form ?
+
+    a. Label
+
+    b. Input
+
+    c. Textarea
+
+    **d. Semua jawaban benar**
+
+105. uppercase pada label berfungsi untuk ?
+
+    a. Membuat tampilan text menjadi camel case
+
+    b. Membuat tampilan text menjadi paragrap
+
+    **c. Membuat tampilan text menjadi kapital**
+
+    d. Semua jawaban benar
+
+106. Elemen input berfungsi untuk ?
+
+    **a. Sebagai kolom isian dari user**
+
+    b. Sebagai bagian ekstetika
+
+    c. Sebagai pelengkap form
+
+    d. Sebagai bagian dari form
+
+107. placeholder berfungsi untuk ?
+
+    a. Sebagai bagian ekstetika
+
+    **b. Membuat tulisan dengan tujuan memberikan penamaan pada form**
+
+    c. Sebagai bagian dari form
+
+    d. Sebagai kolom isian dari user
+
+108. type elemen input pesan menggunakan tag ?
+
+    a. <input>
+
+    b. <file>
+
+    **c. <textarea>**
+
+    d. <date>
+
+109. Mengatur tinggi text area menggunakan ?
+
+    **a. rows**
+
+    b. cols
+
+    c. h1
+
+    d. h2
+
+110. type dari button adalah ?
+
+    a. submit
+
+    b. reset
+
+    c. a href
+
+    **d. button**
 
 ## Footer
 ### Footer End
+111. Untuk membuat icon pada footer menggunakan ?
+
+  **a. Font Awesome**
+
+    b. Remixicon
+
+    c. Tabler Icons
+
+    d. Material Design
+
+112. Syntax icon pada footer adalah...
+
+   a. ```<font class="fas fa-laptop-code fa-5x text-blue-500 mb-6"></font>```
+
+    b. ```<font-awesome class="fas fa-laptop-code fa-5x text-blue-500 mb-6"></font-awesome>```
+
+    **c. ```<i class="fa-2x fab fa-facebook"></i>```**
+
+    d. Semua jawaban benar
+
+113. Agar icon media sosial berada di tengah menggunakan utilitas ?
+
+    a. item-center
+
+    b. mx-auto
+
+    c. grid-between
+
+    **d. text-center**  
+
+114. Agar icon media sosial terdapat sorotan menggunkan utilitas ?
+
+    a. spotlight
+
+    **b. hover**
+
+    c. gradient
+
+    d. light
+
+115. Berikut utilitas icon media sosial **Keucali**...
+
+    a. hover:text-indigo-900
+
+    b. text-indigo-700
+
+    **c. rounded**
+
+    d. p-2 
+
+116. Id pada masing -  masing section berfungsi untuk ?
+
+    **a. Untuk menghubungkan link menu dengan masing - masing section**
+
+    b. Untuk menghubungkan tailwind css
+
+    c. Untuk menghubungkan antar section
+
+    d. Semua jawaban benar
+
+117. Isi href disamakan dengan id ?
+
+    a. Pada menu
+
+    **b. Pada section**
+
+    c. Pada footer
+
+    d. Pada header
+
+118. Syntax id yang tepat adalah...
+
+    **a. <section id="skill">**
+
+    b. <section id=>"skill">
+
+    c. <section id->"skill">
+
+    d. <section id("skill")>
+
+119. Syntax link menu yang tepat adalah...
+
+    a. <a href="$skill">Skill Framework</a>
+
+    b. <a href="@skill">Skill Framework</a>
+
+    **c. <a href="#skill">Skill Framework</a>**
+
+    d. <a href=>"@skill">Skill Framework</a>
+
+120. Syntax link menu menggunakan tag...
+
+    a. link
+
+    **b. a href**
+
+    c. component
+
+    d. semua jawaban benar
