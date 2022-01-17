@@ -518,92 +518,277 @@
 
 ## Membuat Chatgroup dengan Vue dan Firebase
 ### Membuat Route Guard Halaman Chat Room
+51. Untuk mengamankan route menggunakan ?
+
+    a. Middleware
+
+    b. Web Guard
+
+    **c. Route Guard**
+
+    d. Guard
+
+52. Pada route room kita menambahkan property ?
+
+    a. before
+
+    **b. beforeEnter**
+
+    c. previousEnter
+
+    d. previous
+
+53. Syntax redirect ke halaman home jika user belum login adalah ?
+
+    a. redirect('Home')
+
+    b. redirect({ name: 'Home' })
+
+    c. goTo({ name: 'Home' })
+
+    **d. next({ name: 'Home' })**
+    
 ### Membuat Composable Untuk Menyimpan Data Ke Firestore
+54. Menyimpan data ke firebase menggunakan ?
+
+    a. store
+
+    b. post
+
+    **c. firestore**
+
+    d. create
+
+55. Syntax insert data dengan firestore adalah ?
+
+    **a. await projectFirestore.collection(collection).add(document)**
+
+    b. wait Firestore.collection(collection).add(document)
+
+    c. see Firestore.collection(collection).add(document)
+
+    d. going Firestore.collection(collection).add(document)
+
+56. Kumpulan data dalam firebase disebut ?
+
+    a. Dataset
+
+    b. Object
+
+    **c. Collection**
+
+    d. table
+
 ### Menggunakan Composable Untuk Mengirim Data Chat
+57. Composable useCollection digunakan pada component ?
+
+    a. Login.vue
+
+    b. Navbar.vue
+
+    c. Chat.vue
+
+    **d. Form.vue**
+
+58. Syntax mengirim chat dengan enter adalah ?
+
+    **a. @keypress.enter.prevent="handleSubmit"**
+
+    b. @keypush.enter.prevent="handleSubmit"
+
+    c. @enter.prevent="handleSubmit"
+
+    d. @press.enter.prevent="handleSubmit"
+
 ### Membuat Composable Getcollection Untuk Mendapatkan Data
+59. Untuk mendapatkan data menggunakan Composable ?
+
+    a. getCollection.js
+
+    **b. getUser.js**
+
+    c. useUser.js
+
+    d. useCollection
+
+60. Syntax get nama user pada variabel chat adalah ?
+
+    a. name: user.value.displayName
+
+    **b. name: user.value.displayName**
+
+    c. name: user.value.displayName
+
+    d. name: user.value.displayName
+
 ### Menampilkan Data Chat Menggunakan Getcollection
+61. Fungsi dari onUpdated adalah ?
+
+    **a. Untuk membuat fungsi autoscroll jika ada update data**
+
+    b. Untuk membuat fungsi autoscroll jika ada data pada firebase
+
+    c. Untuk membuat fungsi autoscroll jika refresh halaman yang dilakukan user
+
+    d. Semua Jawaban Benar
+
+62. Import onUpdated dari ?
+
+    a. Composable
+
+    **b. Vue**
+
+    c. Component
+
+    d. Home 
+
+63. Untuk melakukan scroll otomatis menggunakan ?
+    
+    a. scrollDown 
+
+    b. scrollY
+
+    c. scrollAuto
+
+    **d. scrollTop**
+
+64. Scroll dilakukan berdasarkan ?
+
+    a. tinggi form
+
+    b. tinggi wrap chat
+
+    **c. value chat**
+
+    d. tinggi frame 
+
+65. Melakukan perulangan menggunakan ?
+
+    a. @foreach
+    
+    b. for
+    
+    **c. v-for**
+    
+    d. @endforeach
+
 ### Mengubah Format Timestamp Lebih Mudah Dibaca
+66. Untuk mengubah format timestamp menggunakan library ?
+
+    a. date-format
+
+    b. date-picker
+
+    c. date-sytle
+
+    **d. date-fns**
+
+67. Perintah instal date-fns adalah ?
+
+    **a. npm install date-fns**
+
+    b. npm download date-fns
+
+    c. npm pull date-fns
+
+    d. npm start date-fns
+
+68. Syntax mengubah format timestamp adalah ?
+
+    **a. let time = formatDistanceToNow(doc.createdAt.toDate())
+          return { ...doc, createdAt: time }**
+
+    b. let time = formatDistanceToNow(doc.createdAt.toDate())
+          return { doc, createdAt: time }
+
+    c. let time = formatDistance(doc.createdAt.Date())
+          return { ...doc, createdAt: time }
+
+    d. let time = DistanceToNow(doc.createdAt.date())
+          return { ...doc, createdAt: time }
+
 ### Mencegah Proses Redirect Saat Reload Halaman Chat
+69. Untuk mencegah Proses Redirect Saat Reload dengan cara ?
+
+    a. Mengecek apakah ada data mount sebelumnya jika ada maka diarahkan ke halaman login
+
+    b. Mengecek apakah ada data mount sebelumnya jika ada maka diarahkan ke halaman register
+
+    **c. Mengecek apakah ada data mount sebelumnya jika ada maka diarahkan ke halaman room / chat**
+
+    d. Mengecek apakah ada data user sebelumnya jika ada maka menghapus data sebelumnya
+
+70. Syntax pencegahan Proses Redirect Saat Reload adalah ?
+
+    a. projectAuth.collection(() => {
+  if (!app) {
+    app = createApp(App)
+      .use(router)
+      .mount('#app')
+  }
+})
+
+   **b. projectAuth.onAuthStateChanged(() => {
+  if (!app) {
+    app = createApp(App)
+      .use(router)
+      .mount('#app')
+  }
+})**
+
+    c. Auth.onAuthStateChanged(() => {
+  if (!app) {
+    app = createApp(App)
+      .use(router)
+      .mount('#app')
+  }
+})
+
+    d. Collection.onAuthStateChanged(() => {
+  if (!app) {
+    app = createApp(App)
+      .use(router)
+      .mount('#app')
+  }
+})
+
 ### Mencegah Masuk Halaman Otentikasi Setelah Login
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Mengintegrasikan Firebase dengan Vue
-## Membuat Chatgroup dengan Vue dan Firebase
+71. Untuk mencegah masuk ke halaman otentikasi setalah login dengan cara ?
+
+    a. Mengecek apakah ada data user sebelumnya jika ada maka diarahkan ke halaman login
+
+    b. Mengecek apakah ada data user sebelumnya jika ada maka diarahkan ke halaman register
+
+    **c. Mengecek apakah ada data user sebelumnya jika ada maka diarahkan ke halaman room / chat**
+
+    d. Mengecek apakah ada data user sebelumnya jika ada maka menghapus data sebelumnya
+
+72. Syntax mencegah masuk ke halaman otentikasi setalah login adalah ?
+
+    a. let user = projectAuth.currentUser
+  if (!user) {
+    next({ name: 'Room' })
+  } else {
+    next()
+  }
+
+    b. let user = projectAuth.currentUser
+  if (false && true) {
+    next({ name: 'Room' })
+  } else {
+    next()
+  }
+
+    **c. let user = projectAuth.currentUser
+  if (user) {
+    next({ name: 'Room' })
+  } else {
+    next()
+  }**
+
+    d. let user = projectAuth.currentUser
+  if (user) {
+    redirect({ name: 'Room' })
+  } else {
+    redirect()
+  }
